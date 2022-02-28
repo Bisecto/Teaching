@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="bottom"
+       >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:text="fragment1"
+            android:background="#FFFFFF"
+            android:id="@+id/frag1"
+            android:textColor="#000000"
+            android:onClick="first"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:text="fragment2"
+            android:id="@+id/frag2"
+            android:textColor="#000000"
+            android:background="#FFFFFF"
+            android:onClick="second"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:text="fragment3"
+            android:onClick="third"
+            android:id="@+id/frag3"
+            android:background="#FFFFFF"
+            />
+    </LinearLayout>
+
+<androidx.viewpager.widget.ViewPager
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/viewpager">
+
+</androidx.viewpager.widget.ViewPager>
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ken.example.anew">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.SET_ALARM" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".DynamicButton">
+
+        </activity>
+        <activity android:name=".Alarm_Activity"></activity>
+
+        <receiver android:name=".alarm" />
+
+        <activity android:name=".Notification"></activity>
+        <activity android:name=".SqliteUpdate" />
+        <activity android:name=".sqliteview" />
+        <activity android:name=".SQLiteActivity" />
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".FragmentActivity" />
+        <activity android:name=".ImageSliderActivity" />
+        <activity android:name=".SplashScreenActivity" />
+        <activity android:name=".WebviewActivity2" />
+        <activity android:name=".volley" />
+        <activity android:name=".ListviewActivity" />
+        <activity android:name=".dashboard" />
+        <activity android:name=".SharePrefrence" />
+        <activity android:name=".browser" />
+        <activity android:name=".form" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal">
+<include
+    layout="@layout/toolbar">
+
+</include>
+
+     <Button
+         android:id="@+id/button"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:text="first"/>
+
+    <Button
+        android:id="@+id/bu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open form activity"
+        android:layout_marginTop="20dp"
+        android:onClick="openpage"/>
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="browse"
+    android:id="@+id/browse"
+    android:onClick="browser"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shareprefrence"
+        android:id="@+id/shareprefrence"
+        android:onClick="shareprefrence"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ListView"
+        android:id="@+id/List"
+        android:onClick="List"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volley"
+        android:id="@+id/volley"
+        android:onClick="volley"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WEbview"
+        android:id="@+id/webview"
+        android:onClick="webview"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fragment"
+        android:id="@+id/fragment"
+        android:onClick="Fragment"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fragment2"
+        android:id="@+id/fragment2"
+        android:onClick="Fragment2"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SQLITE1"
+        android:id="@+id/sql"
+        android:onClick="sql"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alarm"
+        android:id="@+id/Alarm"
+        android:onClick="Alarm"/>
+
+</LinearLayout>

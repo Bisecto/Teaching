@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SQLiteActivity"
+    android:orientation="vertical">
+<EditText
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:hint="First Name"
+    android:id="@+id/f_name"/>
+    <EditText
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Last Name"
+        android:id="@+id/l_name"/>
+    <EditText
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Phone Number"
+        android:id="@+id/p_no"/>
+    <EditText
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Email"
+        android:id="@+id/e_name"/>
+    <EditText
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="About Your Self"
+        android:id="@+id/about"
+        android:maxLines="2000" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:text="Save"
+        android:onClick="save"
+        android:id="@+id/save"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:text="Access"
+        android:onClick="access"
+        android:id="@+id/access"/>
+</LinearLayout>
